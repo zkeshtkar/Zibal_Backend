@@ -58,7 +58,7 @@ Install project dependencies:
             "value": 118160544
         }
     ]
-##Command
+## Command
 You can also use this command to get the right result from `/transactionApi/cachedTrnsaction` and increase the speed.
  
     python3 manage.py save_data  --mode weekly --type amount --merchantId 5b086ecdf92ea126d079275r  
