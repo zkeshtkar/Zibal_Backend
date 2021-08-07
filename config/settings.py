@@ -119,13 +119,13 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MONGODB_DATABASES = {
     "default": {
-        "name": "default",
+        "name": "project",
         "host": "localhost",
         "port": 27017,
         "tz_aware": True,  # if you use timezones in django (USE_TZ = True)
     }
 }
 mongoengine.connect(
-    db='default',
+    db='project',
     host='127.0.0.1:27017'
 )

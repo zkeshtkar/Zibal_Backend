@@ -45,4 +45,4 @@ class Command(BaseCommand):
                     serialized_transactions.create(validated_data=serialized_transactions.data)
 
         except bson.errors.InvalidId:
-            raise CommandError("use correct id %s")
+            raise CommandError("use correct id")
